@@ -21,34 +21,25 @@ To run this application, you need the following:
 - **pythonnet** (`pip install pythonnet`)
 - Tekscan SDK is installed at C:\Tekscan\TekAPI\TekAPI.dll or modify script.
 
-### Install Python Dependencies
-
-You may want to create a virtual environment to manage dependencies:
-
-```bash
-# Create a virtual environment
-python -m venv venv
-
-# Activate the virtual environment
-# On Windows
-venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
-
 ## Step-by-Step Installation
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/akipina/tekscan.git
    cd tekscan
+   '''
 
 2. **Set Up a Python Virtual Environment**
+```bash
 cd tekscan
 python -m venv venv
-3. **Activate the virtual environment and install**
+```
+4. **Activate the virtual environment and install**
+```bash
 venv\Scripts\activate
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 
 
