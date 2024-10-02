@@ -26,13 +26,11 @@ To run this application, you need the following:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/akipina/tekscan.git
-   cd tekscan
    ```
-
 2. **Set Up a Python Virtual Environment**
 ```bash
 cd tekscan
-python -m venv venv
+python -m venv tekscan_venv
 ```
 3. **Activate the virtual environment and install**
 ```bash
