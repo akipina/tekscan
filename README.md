@@ -15,10 +15,11 @@ This project is a Flask web application that interacts with a sensor via the `Te
 
 To run this application, you need the following:
 
-- **Python 3.x**
+- **Python 3.x** (32 bit python, specifically)
 - **Flask** (`pip install flask`)
 - **TekAPIWrapper** (Custom Python wrapper for TekAPI using `pythonnet` to interact with the .NET assembly)
 - **pythonnet** (`pip install pythonnet`)
+- Tekscan SDK is installed at C:\Tekscan\TekAPI\TekAPI.dll or modify script.
 
 ### Install Python Dependencies
 
@@ -34,5 +35,22 @@ venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
 
-# Install dependencies
-pip install flask pythonnet
+## Step-by-Step Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/akipina/tekscan.git
+   cd tekscan
+
+2. **Set Up a Python Virtual Environment**
+cd tekscan
+python -m venv venv
+3. **Activate the virtual environment and install**
+venv\Scripts\activate
+source venv/bin/activate
+pip install -r requirements.txt
+
+
+
+   
+
