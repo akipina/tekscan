@@ -38,6 +38,19 @@ venv\Scripts\activate
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+4. **Install python32**
+This program requires a 32 bit version of python to run it. In your virtual environment, run:
+```bash
+curl -o python-32bit.exe https://www.python.org/ftp/python/3.11.5/python-3.11.5.exe
+```
+This will download python32. Download it and run it. The actual executable will likely be installed in C:\Users\<user>\AppData\Local\Programs\Python\Python311-32. You wll need to call python from this path. Replace user with your username.
+## Usage
+Once installation is complete, the application can be started by simply running
+```bash
+C:\Users\<user>\AppData\Local\Programs\Python\Python311-32\python.exe tekscan.py
+
+Then going to http://localhost:5000
+
 
 
 
