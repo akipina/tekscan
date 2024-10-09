@@ -16,7 +16,6 @@ DEFAULT_RECORDING_SEGMENT = 60  # Default recording segment size in seconds
 MAX_FILE_SIZE = 1000 * 1024 * 1024  # Default maximum file size (1GB)
 RECORDING_PATH = os.getcwd()
 
-
 # Check if the sensor is connected
 def check_sensor_status():
     global sensor_connected
